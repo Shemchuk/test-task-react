@@ -1,0 +1,25 @@
+.start-button {
+  background-color: #ffcc00;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.start-button:hover {
+  background-color: #e6b800;
+}
+
+.start-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.start-button {
+  font-size: 16px;
+  margin-left: 10px;
+}

@@ -1,6 +1,34 @@
 .App {
-  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  height: 100vh;
+
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 70px;
+  margin: auto;
+
+}
+
+.blocks-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 300px;
+
+  position: relative;
+}
+
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -9,7 +37,9 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s ease-in-out;
+    animation: App-logo-spin infinite 3s ease-in-out;
+    /* animation-fill-mode: both; */
+    animation-direction: alternate
   }
 }
 
